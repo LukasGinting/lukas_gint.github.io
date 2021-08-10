@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=WindSong&display=swap=Oswald&display=swap');
+
+
+ @media screen and (max-width: 1000px) {
+   
+    aside {
+       float: right;
+       width: 25% ;
+       padding-left: 20px;
+    }
+}
+
+.jumbotron {
+    padding: 60px 60px 0px 60px;
+    background-image: url(../File\ Aset/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 5px double red;
+    border-bottom: 5px dotted red;
+    opacity: 0.8;
+ }
+
+ .header1 {
+     font-size: 35px;
+     font-weight: bolder;
+     font-family: WindSong, Anton;
+     color: white;
+     text-align: center;
+     padding: 10px;
+     margin: 50px 0 0 0;
+     letter-spacing: 10px;
+     opacity: 0.7;
+ }
+
+ .header2{
+     color: white;
+     font-family: Oswald;
+     padding-bottom: -100px;
+     margin-bottom: -15px;
+     text-align: right;
+     opacity: 0.7;
+
+ }
+ 
+header {
+    display: inline;
+}
+
+Nav {
+    background-color: black;
+    top: 0;
+    padding: 2px 2px 0 2px;
+    border: 5px double red;
+    border-top: 0px;
+    position: sticky;
+
+}
+
+
+
+nav li {
+    display: inline;
+    padding: 3px;
+    margin: 5px;
+    list-style-type: none;
+    background-color: black
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+    background-color: red;
+    padding: 5px
+}
+
+.dropdown {
+    display:inline-block;
+    position: relative;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    cursor: pointer;
+    border: none;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    font-weight: bold;
+    background-color: red;
+    padding: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display:block;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding:20px;
+    overflow: auto;
+}
+
+main p {
+    
+    text-align: justify;
+    text-indent: 1cm;
+}
+
+.card {
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.hcontent {
+    padding: 20px 10px 10px 10px;
+    background-color: #00c8eb;
+    border-radius: 5px;
+    color: white
+    
+}
+
+h3 {
+    padding: 5px;
+    background-color: rgb(219,215, 215);
+    font-family: Anton;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    padding-left: 10px;
+}
+
+strong{
+    font-size: 20px;
+}
+
+.featured1 {
+    width: 200px;
+    object-fit: cover;
+ }
+
+ .featured2, .featured3 {
+     width: 100%;
+     max-height: 500px;
+     object-fit: cover;
+     object-position: center;
+ }
+
+.table0 {
+    width: auto;
+}
+
+ .table2 {
+     text-align: left;
+ }
+ 
+ .bahan {
+     text-align: center; 
+ }
+
+ .footer1 {
+     width: 800px;
+ }
+
+.footer2 {
+    background-color: #00c8eb;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer a {
+    font-style: italic;
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
+
+.gambar9 img {
+    width: 200px;
+}
